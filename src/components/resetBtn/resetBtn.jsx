@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import React from 'react';
 import './rbtn.css';
 
-function ResetButton() {
-
+function ResetButton({ resetBudget }) {
   return (
     <>
-    <button className='reset'>RESET APP</button>
+      <button className='reset' onClick={resetBudget}>
+        RESET APP
+      </button>
     </>
-  )
+  );
 }
 
 export default ResetButton;
