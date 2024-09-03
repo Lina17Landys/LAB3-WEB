@@ -1,0 +1,26 @@
+.expense-display {
+    background-color: #fff; 
+    padding: 20px;          
+    border-radius: 20px;    
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    width: 950px;          
+    min-height: 200px;      
+    margin: 20px auto;     
+    display: flex;         
+    justify-content: center; 
+    align-items: center;    
+    text-align: center;     
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .expense-display p {
+    font-size: 18px;      
+    color: #333;          
+    margin: 0;            
+    padding: 10px;        
+  }
+  

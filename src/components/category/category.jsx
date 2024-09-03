@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './c.css'
 
 const CategoryFilter = ({ onCategoryChange }) => {
   const categories = ['Savings', 'Food', 'House', 'Miscellaneous Expenses', 'Leisure', 'Health', 'Subscriptions'];
