@@ -1,0 +1,15 @@
+.reset {
+    color: white;
+    background-color: rgb(230, 39, 39);
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reset:hover {
+    background-color: rgb(155, 22, 22);
+  }
+  
